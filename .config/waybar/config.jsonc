@@ -15,6 +15,7 @@
     ],
     "modules-right": [
         "pulseaudio",
+        "bluetooth",
         "network",
         "backlight",
         "battery",
@@ -76,6 +77,13 @@
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+    "bluetooth": {
+	"format": " {status}",
+	"format-connected": " {device_alias}",
+	"format-disabled": " off",
+	"on-click": "bluetoothctl power toggle",
+        "on-click-right": "blueman-manager"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float

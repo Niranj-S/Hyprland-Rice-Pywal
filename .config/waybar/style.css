@@ -127,6 +127,20 @@ button:hover {
     background: @color1;
 }
 
+#bluetooth {
+  padding: 0 10px;
+  background: @color1;
+  color: @background;
+}
+
+#bluetooth.disabled {
+  background: @color4;
+}
+
+#bluetooth.connected {
+  background: @color1;
+}
+
 #pulseaudio {
     background: @color2;
 }

@@ -15,6 +15,8 @@ PS1='[\u@\h \W]\$ '
 alias cls='clear'
 alias hyprconf='nano ~/.config/hypr/hyprland.conf'
 alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+alias neofetch='fastfetch'
+
 
 #pywal source
 [ -f ~/.cache/wal/colors.sh ] && source ~/.cache/wal/colors.sh
