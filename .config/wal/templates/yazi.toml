@@ -1,0 +1,37 @@
+[manager]
+cwd = "{background}"
+hovered = "{color4}"
+preview_hovered = "{color4}"
+
+[mode]
+normal_main = "{foreground}"
+normal_alt = "{color4}"
+
+[status]
+separator_open = "{color4}"
+separator_close = "{color4}"
+
+[select]
+border = "{color4}"
+
+[input]
+border = "{color4}"
+
+[completion]
+border = "{color4}"
+
+[tasks]
+border = "{color4}"
+
+[which]
+mask = "{background}"
+cand = "{foreground}"
+rest = "{color4}"
+desc = "{foreground}"
+separator = "{color4}"
+
+[help]
+mask = "{background}"
+cand = "{foreground}"
+desc = "{foreground}"
+separator = "{color4}"

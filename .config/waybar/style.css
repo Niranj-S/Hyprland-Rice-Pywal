@@ -1,0 +1,207 @@
+@import url("/home/mr_robot/.cache/wal/colors-waybar.css");
+
+
+
+* {
+    font-family: 'JetBrainsMono Nerd Font Propo', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+window#waybar {
+    background-color: transparent;
+    color: @foreground;
+    transition: background-color 0.5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.05;
+}
+
+button {
+    border: none;
+    box-shadow: inset 0 -3px transparent;
+}
+
+button:hover {
+    background: @color0;
+    box-shadow: inset 0 -3px @color8;
+}
+
+/* =======================
+   WORKSPACES
+   ======================= */
+
+#workspaces button {
+    padding: 0 6px;
+    margin: 0 3px;
+    color: @foreground;
+    background: transparent;
+    transition: 0.2s ease-in-out;
+}
+
+#workspaces button:hover {
+    background: @color8;
+}
+
+#workspaces button.active {
+    background: @color2;
+    color: @background;
+}
+
+#workspaces button.urgent {
+    background: @color1;
+    color: @background;
+}
+
+/* =======================
+   COMMON MODULE STYLE
+   ======================= */
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#tray,
+#idle_inhibitor,
+#mpd,
+#custom-media {
+    padding: 0 13px;
+    margin: 0 5px;
+    color: @background;
+}
+
+/* =======================
+   INDIVIDUAL MODULES
+   ======================= */
+
+#clock {
+    background: @color0;
+    color: @foreground;
+}
+
+#battery {
+    background: @color4;
+    color: @background;
+}
+
+#battery.charging,
+#battery.plugged {
+    background: @color2;
+}
+
+#battery.critical:not(.charging) {
+    background: @color1;
+    color: @foreground;
+    animation: blink 0.5s steps(12) infinite alternate;
+}
+
+#cpu {
+    background: @color5;
+}
+
+#memory {
+    background: @color6;
+}
+
+#disk {
+    background: @color3;
+}
+
+#backlight {
+    background: @color2;
+}
+
+#network {
+    background: @color4;
+}
+
+#network.disconnected {
+    background: @color1;
+}
+
+#pulseaudio {
+    background: @color2;
+}
+
+#pulseaudio.muted {
+    background: @color8;
+    color: @foreground;
+}
+
+#wireplumber {
+    background: @color7;
+    color: @background;
+}
+
+#wireplumber.muted {
+    background: @color1;
+    color: @foreground;
+}
+
+#temperature {
+    background: @color3;
+}
+
+#temperature.critical {
+    background: @color1;
+}
+
+#tray {
+    background: @color4;
+    color: @background;
+}
+
+#idle_inhibitor {
+    background: @color0;
+    color: @foreground;
+}
+
+#idle_inhibitor.activated {
+    background: @color7;
+    color: @background;
+}
+
+#mpd {
+    background: @color5;
+}
+
+#mpd.paused {
+    background: @color6;
+}
+
+#mpd.stopped {
+    background: @color8;
+}
+
+#mpd.disconnected {
+    background: @color1;
+}
+
+/* =======================
+   MEDIA
+   ======================= */
+
+#custom-media {
+    background: @color6;
+    color: @background;
+    min-width: 100px;
+}
+
+/* =======================
+   ANIMATIONS
+   ======================= */
+
+@keyframes blink {
+    to {
+        background-color: @foreground;
+        color: @background;
+    }
+}

@@ -1,0 +1,46 @@
+@import url("/home/mr_robot/.cache/wal/colors-waybar.css");
+
+/* Main window */
+window {
+    background-color: alpha(@background, 0.82);
+    border-radius: 14px;
+    border: 2px solid alpha(@color4, 0.9);
+}
+
+/* Outer padding */
+#outer-box {
+    padding: 14px;
+}
+
+/* Search bar */
+#input {
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 10px;
+
+    background-color: alpha(@color0, 0.85);
+    color: @foreground;
+
+    border: none;
+}
+
+/* Entries */
+#entry {
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+
+/* Hover / selected entry */
+#entry:selected {
+    background-color: alpha(@color4, 0.85);
+    color: @background;
+}
+
+/* Text */
+#text {
+    color: @foreground;
+}
+
+#text:selected {
+    color: @background;
+}

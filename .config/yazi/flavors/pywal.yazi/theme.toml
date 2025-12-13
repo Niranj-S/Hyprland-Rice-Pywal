@@ -1,0 +1,38 @@
+# ~/.config/yazi/flavors/pywal.yazi/theme.toml
+
+[manager]
+cwd = { fg = "${WAL_BLUE}" }
+
+hovered = { fg = "${WAL_BG}", bg = "${WAL_BLUE}", bold = true }
+preview_hovered = { fg = "${WAL_BG}", bg = "${WAL_BLUE}" }
+
+find_keyword = { fg = "${WAL_RED}", bold = true }
+find_position = { fg = "${WAL_MAGENTA}", bold = true }
+
+marker_selected = { fg = "${WAL_YELLOW}" }
+marker_copied  = { fg = "${WAL_GREEN}" }
+marker_cut     = { fg = "${WAL_RED}" }
+
+tab_active   = { fg = "${WAL_FG}", bg = "${WAL_BG}", bold = true }
+tab_inactive = { fg = "${WAL_WHITE}" }
+
+[status]
+separator = { fg = "${WAL_BLACK}" }
+
+mode_normal = { fg = "${WAL_GREEN}" }
+mode_select = { fg = "${WAL_YELLOW}" }
+mode_unset  = { fg = "${WAL_RED}" }
+
+progress_label  = { fg = "${WAL_BLUE}" }
+progress_normal = { fg = "${WAL_BLUE}" }
+progress_error  = { fg = "${WAL_RED}" }
+
+[preview]
+directory = { fg = "${WAL_BLUE}" }
+symlink   = { fg = "${WAL_CYAN}" }
+executable = { fg = "${WAL_GREEN}", bold = true }
+
+[select]
+border = { fg = "${WAL_BLUE}" }
+active = { fg = "${WAL_FG}", bg = "${WAL_BLUE}" }
+inactive = { fg = "${WAL_WHITE}" }
