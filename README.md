@@ -30,6 +30,7 @@ This is my daily driver configuration.
 - Launcher: wofi  
 - File Manager: yazi    
 - Color scheme: pywal  
+- Wallpaper Manager: swww
 
 ---
 
@@ -41,6 +42,13 @@ Colors are generated using pywal and applied consistently across the system.
 - Shared color palette for kitty, waybar, wofi, and yazi
 - Yazi colors are generated using a custom pywal template
 
+To add more wallpapers, add a similar bind line to hyprland's config file.
+
+```bash
+bind = $mainMod, 4, exec, swww img ~/Pictures/Wallpapers/neon_tokyo.webp --transition-duration 0.5   --transition-fps 144 && wal -i ~/Pictures/Wallpapers/neon_tokyo.webp
+```
+
+Replace the path with the wallpaper's
 
 ---
 
