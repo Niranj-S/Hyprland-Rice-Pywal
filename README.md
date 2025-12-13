@@ -60,7 +60,7 @@ Replace the path with the wallpaper's
 | Key | Action |
 |----|-------|
 | Super + Enter | Open terminal |
-| Super + D | Application launcher |
+| Super + (1/2/3) | Switch workspace+wallpaper+theme|
 | Super + E | File manager |
 | Print | Screenshot (select area, save to file, copy to clipboard) |
 
