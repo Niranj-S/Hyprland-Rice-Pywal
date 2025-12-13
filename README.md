@@ -41,6 +41,7 @@ Colors are generated using pywal and applied consistently across the system.
 - Wallpaper-driven color generation
 - Shared color palette for kitty, waybar, wofi, and yazi
 - Yazi colors are generated using a custom pywal template
+- RGB Keyboard backlit sync with wallpaper (asusctl)
 
 To add more wallpapers, add a similar bind line to hyprland's config file.
 
