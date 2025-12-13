@@ -10,11 +10,11 @@ This is my daily driver configuration.
 
 ## Screenshots
 
-![Desktop](Screenshots/1.png)
+![Desktop](Pictures/Wallpapers/1.png)
 
-![Terminal](Screenshots/2_.png)
+![Terminal](Pictures/Wallpapers/2.png)
 
-![Launcher](Screenshots/3.png)
+![Launcher](Pictures/Wallpapers/3.png)
 
 
 
