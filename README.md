@@ -41,7 +41,6 @@ Colors are generated using pywal and applied consistently across the system.
 - Shared color palette for kitty, waybar, wofi, and yazi
 - Yazi colors are generated using a custom pywal template
 
-Generated cache files are intentionally not tracked in this repository.
 
 ---
 
