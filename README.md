@@ -12,7 +12,7 @@ This is my daily driver configuration.
 
 ![Desktop](Screenshots/1.png)
 
-![Terminal](Screenshots/2.png)
+![Terminal](Screenshots/2_.png)
 
 ![Launcher](Screenshots/3.png)
 
