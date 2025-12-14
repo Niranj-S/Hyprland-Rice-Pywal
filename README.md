@@ -10,13 +10,11 @@ This is my daily driver configuration.
 
 ## Screenshots
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dfdb9008-c3ef-4f48-8ceb-13132c1ced8c" />
+<img src="Pictures/rice_shots/1.png" alt="img 1" width="1920" height="1080"/>
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cd183be8-aed4-4cd6-b1f8-9620adde08e4" />
+<img src="Pictures/rice_shots/2.png" alt="img 2" width="1920" height="1080"/>
 
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1554bbd2-8fcd-40d3-8d46-c4e5cfaad7f0" />
-
+<img src="Pictures/rice_shots/3.png" alt="img 3" width="1920" height="1080"/>
 
 
 
